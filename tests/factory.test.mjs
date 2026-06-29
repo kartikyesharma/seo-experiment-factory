@@ -22,6 +22,17 @@ test("Somnath pages contain required editorial fields", () => {
   }
 });
 
+test("homepage guide hub routes all resolve to generated content", () => {
+  const required = [
+    "somnath-temple-official-website", "somnath-temple-tickets", "somnath-temple-timings",
+    "hotels-near-somnath-temple", "somnath-temple-trust", "how-to-reach-somnath",
+    "somnath-two-day-itinerary", "somnath-online-pooja-booking", "official-links"
+  ];
+  const pageDir = path.join(root, "sites/somnath/pages");
+  const slugs = fs.readdirSync(pageDir).map((file) => matter(fs.readFileSync(path.join(pageDir, file), "utf8")).data.slug);
+  for (const slug of required) assert.ok(slugs.includes(slug), `homepage route missing content: ${slug}`);
+});
+
 test("every product PDF source states independence", () => {
   for (const site of ["_template", "somnath"]) {
     const products = JSON.parse(fs.readFileSync(path.join(root, "sites", site, "products.json"), "utf8"));
