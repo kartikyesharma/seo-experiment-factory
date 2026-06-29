@@ -1,4 +1,7 @@
 {
+  "buildCommand": "npm run site:validate && npm run pdf:build && npm run build",
+  "outputDirectory": "out"
+}{
   "framework": "nextjs",
   "buildCommand": "npm run site:validate && npm run pdf:build && npm run build",
   "outputDirectory": "out",
