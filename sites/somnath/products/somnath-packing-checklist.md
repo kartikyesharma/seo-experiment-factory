@@ -1,5 +1,5 @@
 ---
-title: Somnath Packing Checklist
+title: Somnath Darshan & Packing Checklist
 subtitle: A compact independent travel companion
 version: "Sample edition — June 2026"
 ---

@@ -13,7 +13,7 @@ export function AssistanceForm({ siteId }: { siteId: string }) {
     track("form_submit", { source: "homepage_travel_help", service: String(payload.service || "") });
     const webhook = process.env.NEXT_PUBLIC_LEAD_WEBHOOK_URL;
     if (!webhook) {
-      setStatus("Preview only — travel assistance is not connected yet.");
+      setStatus("Enquiries are currently unavailable. Please try again later.");
       return;
     }
     try {

@@ -1,5 +1,5 @@
 ---
-title: Somnath Weekend Planner
+title: Somnath 2-Day Trip Planner
 subtitle: A practical two-day independent travel guide
 version: "Sample edition — June 2026"
 ---

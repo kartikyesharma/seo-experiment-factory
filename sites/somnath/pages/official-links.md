@@ -12,7 +12,7 @@ faq:
     answer: "Schedules, rules, transport, weather, and services can change after an independent article is published."
 ---
 
-Use the official-source panel below to open the current **Shree Somnath Trust website**, **Gujarat Tourism page**, and **Indian Railways enquiry service**. This page keeps those primary links separate from our own independent articles and commercial placeholders.
+Use the official-source panel below to open the current **Shree Somnath Trust website**, **Gujarat Tourism page**, and **Indian Railways enquiry service**. This page keeps those primary links separate from our own articles and optional commercial services.
 
 ## Check before you act
 

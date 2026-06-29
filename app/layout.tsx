@@ -22,7 +22,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <header><Link className="brand" href="/">{site.name}</Link><span>Independent information</span></header>
         <main>{children}</main>
         <footer>
-          <p>© {new Date().getFullYear()} {site.legal.businessName}. Independent informational guides; no official affiliation.</p>
+          <p>© {new Date().getFullYear()} Somnath Trip Notes. Independent informational guide; no official affiliation.</p>
           <nav><Link href="/privacy-policy/">Privacy</Link><Link href="/terms/">Terms</Link><Link href="/refund-policy/">Refunds</Link><Link href="/disclaimer/">Disclaimer</Link></nav>
         </footer>
         <Analytics />
