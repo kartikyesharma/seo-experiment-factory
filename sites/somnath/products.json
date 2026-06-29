@@ -1,0 +1,30 @@
+[
+  {
+    "id": "somnath-weekend-planner",
+    "title": "Somnath Weekend Planner PDF",
+    "description": "A printable two-day sequence, packing list, time buffers, local transport prompts, and official-source checklist.",
+    "price": 149,
+    "currency": "INR",
+    "paymentLink": "https://rzp.io/l/REPLACE_AFTER_PAYMENT_APPROVAL",
+    "pdfUrl": "/products/somnath-weekend-planner.pdf",
+    "sourceMarkdown": "products/somnath-weekend-planner.md",
+    "deliveryEmailTemplate": {
+      "subject": "Your Somnath Weekend Planner",
+      "body": "Hi {{customer_name}},\n\nThank you for your purchase. Download your independent informational guide here:\n{{secure_pdf_url}}\n\nThis guide is not affiliated with or endorsed by Shree Somnath Trust, any temple, government body, or booking service. Verify changing details with the official links inside.\n\nOrder reference: {{payment_id}}\nSupport: support@example.com"
+    }
+  },
+  {
+    "id": "somnath-packing-checklist",
+    "title": "Somnath Packing Checklist PDF",
+    "description": "A compact printable checklist for documents, clothing, medicines, transport confirmations, and last-minute verification.",
+    "price": 99,
+    "currency": "INR",
+    "paymentLink": "https://rzp.io/l/REPLACE_AFTER_PAYMENT_APPROVAL",
+    "pdfUrl": "/products/somnath-packing-checklist.pdf",
+    "sourceMarkdown": "products/somnath-packing-checklist.md",
+    "deliveryEmailTemplate": {
+      "subject": "Your Somnath Packing Checklist",
+      "body": "Hi {{customer_name}},\n\nThank you for your purchase. Download your independent informational checklist here:\n{{secure_pdf_url}}\n\nThis checklist is not affiliated with or endorsed by Shree Somnath Trust, any temple, government body, or booking service.\n\nOrder reference: {{payment_id}}\nSupport: support@example.com"
+    }
+  }
+]

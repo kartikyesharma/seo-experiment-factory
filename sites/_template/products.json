@@ -1,0 +1,16 @@
+[
+  {
+    "id": "starter-guide",
+    "title": "Independent Starter Guide",
+    "description": "A concise printable planning guide.",
+    "price": 99,
+    "currency": "INR",
+    "paymentLink": "https://rzp.io/l/REPLACE_AFTER_PAYMENT_APPROVAL",
+    "pdfUrl": "/products/starter-guide.pdf",
+    "sourceMarkdown": "products/starter-guide.md",
+    "deliveryEmailTemplate": {
+      "subject": "Your independent guide",
+      "body": "Hi {{customer_name}},\n\nDownload your independent informational guide: {{secure_pdf_url}}\n\nThis is not an official publication.\nOrder: {{payment_id}}"
+    }
+  }
+]

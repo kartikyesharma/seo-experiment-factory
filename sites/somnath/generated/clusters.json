@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cluster-1",
+    "primaryKeyword": "somnath temple timings",
+    "slug": "somnath-temple-timings",
+    "opportunityScore": 0.89,
+    "keywords": [
+      {
+        "keyword": "somnath temple timings",
+        "volume": 10000,
+        "competition": 0.2,
+        "bidLow": 2.5,
+        "bidHigh": 12,
+        "score": 0.89
+      },
+      {
+        "keyword": "somnath temple opening time",
+        "volume": 1000,
+        "competition": 0.2,
+        "bidLow": 1.8,
+        "bidHigh": 8,
+        "score": 0.74
+      }
+    ]
+  },
+  {
+    "id": "cluster-2",
+    "primaryKeyword": "somnath itinerary 2 days",
+    "slug": "somnath-itinerary-2-days",
+    "opportunityScore": 0.85,
+    "keywords": [
+      {
+        "keyword": "somnath itinerary 2 days",
+        "volume": 1000,
+        "competition": 0.2,
+        "bidLow": 4.5,
+        "bidHigh": 18,
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "id": "cluster-3",
+    "primaryKeyword": "how to reach somnath",
+    "slug": "how-to-reach-somnath",
+    "opportunityScore": 0.81,
+    "keywords": [
+      {
+        "keyword": "how to reach somnath",
+        "volume": 5000,
+        "competition": 0.55,
+        "bidLow": 3.2,
+        "bidHigh": 14,
+        "score": 0.81
+      }
+    ]
+  },
+  {
+    "id": "cluster-4",
+    "primaryKeyword": "places to visit near somnath",
+    "slug": "places-to-visit-near-somnath",
+    "opportunityScore": 0.79,
+    "keywords": [
+      {
+        "keyword": "places to visit near somnath",
+        "volume": 10000,
+        "competition": 0.9,
+        "bidLow": 3,
+        "bidHigh": 15.5,
+        "score": 0.79
+      }
+    ]
+  },
+  {
+    "id": "cluster-5",
+    "primaryKeyword": "somnath railway station",
+    "slug": "somnath-railway-station",
+    "opportunityScore": 0.72,
+    "keywords": [
+      {
+        "keyword": "somnath railway station",
+        "volume": 5000,
+        "competition": 0.2,
+        "bidLow": 2.1,
+        "bidHigh": 9.5,
+        "score": 0.72
+      }
+    ]
+  }
+]

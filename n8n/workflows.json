@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "note": "Provider-neutral workflow contracts. Configure credentials in n8n Cloud, never in this file.",
+  "workflows": [
+    {
+      "name": "Lead capture",
+      "trigger": { "type": "webhook", "method": "POST", "path": "lead" },
+      "nodes": [
+        "Validate email, siteId, source, consent=yes, and allowed browser Origin",
+        "Rate-limit or challenge abusive sources at the edge",
+        "Upsert leads by site_id + email in Supabase/Baserow",
+        "Send double-opt-in or welcome email",
+        "Return a generic 200 response without revealing whether the email existed"
+      ],
+      "failure": "Send execution alert; do not log unnecessary personal data"
+    },
+    {
+      "name": "Verified payment and PDF delivery",
+      "trigger": { "type": "webhook", "method": "POST", "path": "payment-provider" },
+      "nodes": [
+        "Capture the raw body and verify Razorpay/Cashfree webhook signature with a stored credential",
+        "Reject unverified events and non-success payment states",
+        "Map provider payment-link/reference to a server-maintained product and expected amount",
+        "Insert order using provider_payment_id as an idempotency key",
+        "Render the product deliveryEmailTemplate with customer name, payment ID, and private PDF URL",
+        "Send transactional email",
+        "Mark delivered_at; optionally send a server-side GA4 purchase event",
+        "Return 200 so the provider stops retrying"
+      ],
+      "failure": "Alert support and leave delivered_at null so a retry can safely resume"
+    },
+    {
+      "name": "Weekly Search Console opportunity review",
+      "trigger": { "type": "schedule", "cron": "0 7 * * 1", "timezone": "Asia/Kolkata" },
+      "nodes": [
+        "For each approved live site, query Search Console page+query rows for the trailing 28 days and prior 28 days",
+        "Upsert daily aggregates into page_metrics",
+        "Flag high-impression queries at positions 4-20 with weak CTR, material declines, and emerging queries without a matching page",
+        "Create experiment_suggestions with metrics and reason",
+        "Email a concise review queue to the editor"
+      ],
+      "guardrail": "Never change content, deploy, buy a domain, or alter prices automatically"
+    }
+  ]
+}

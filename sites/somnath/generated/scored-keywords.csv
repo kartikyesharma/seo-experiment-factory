@@ -1,0 +1,7 @@
+keyword,volume,competition,bid_low,bid_high,score,cluster
+somnath temple timings,10000,0.2,2.5,12,0.89,cluster-1
+somnath temple opening time,1000,0.2,1.8,8,0.74,cluster-1
+somnath itinerary 2 days,1000,0.2,4.5,18,0.85,cluster-2
+how to reach somnath,5000,0.55,3.2,14,0.81,cluster-3
+places to visit near somnath,10000,0.9,3,15.5,0.79,cluster-4
+somnath railway station,5000,0.2,2.1,9.5,0.72,cluster-5

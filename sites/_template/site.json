@@ -1,0 +1,24 @@
+{
+  "id": "replace-me",
+  "name": "Independent Place Guide",
+  "domain": "https://replace-me.example.com",
+  "language": "en-IN",
+  "locale": "en-IN",
+  "description": "Independent practical information for planning a visit.",
+  "author": "Editorial team",
+  "supportEmail": "support@example.com",
+  "accent": "#82421f",
+  "officialLinks": [
+    { "label": "Relevant official source", "url": "https://example.gov.in/" }
+  ],
+  "serviceCta": {
+    "label": "Optional service",
+    "url": "https://example.com/approved-partner",
+    "disclosure": "Commercial link; we may receive compensation."
+  },
+  "legal": {
+    "businessName": "Replace with legal business name",
+    "jurisdiction": "India",
+    "refundDays": 7
+  }
+}

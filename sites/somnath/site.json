@@ -1,0 +1,26 @@
+{
+  "id": "somnath",
+  "name": "Somnath Trip Notes",
+  "domain": "https://somnath-trip-notes.example.com",
+  "language": "en-IN",
+  "locale": "en-IN",
+  "description": "Independent, practical planning notes for a visit to Somnath, with official sources clearly separated from our own guidance.",
+  "author": "Somnath Trip Notes editorial team",
+  "supportEmail": "support@example.com",
+  "accent": "#9b401d",
+  "officialLinks": [
+    { "label": "Shree Somnath Trust official website", "url": "https://somnath.org/" },
+    { "label": "Gujarat Tourism: Somnath", "url": "https://www.gujarattourism.com/saurashtra/gir-somnath/somnath-temple.html" },
+    { "label": "Indian Railways enquiry", "url": "https://enquiry.indianrail.gov.in/" }
+  ],
+  "serviceCta": {
+    "label": "Compare local stays",
+    "url": "https://example.com/somnath-stays",
+    "disclosure": "Example commercial link; replace with an approved partner before launch."
+  },
+  "legal": {
+    "businessName": "Example Guide Studio",
+    "jurisdiction": "Gujarat, India",
+    "refundDays": 7
+  }
+}
